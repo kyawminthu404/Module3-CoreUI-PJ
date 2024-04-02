@@ -55,7 +55,7 @@ const LoginIndex = () => {
             method: "get",
             url: `admin/login`,
             params: {
-            user_code : userCode,
+            user_code : userCode, //payload
             password : password
             },
           };

@@ -654,6 +654,8 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
 padding: 0 30px;
 border-radius: 15px;
 background: transparent;//url(/image/green.png);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter:blur(5px) ;
 //background-size: cover;
 border: 1px solid #39372e;
 box-shadow: 0px 0px 8px rgba(166, 167, 155, 0.6);
@@ -667,6 +669,7 @@ box-shadow: 0px 0px 8px rgba(166, 167, 155, 0.6);
   font-weight: bold;
   letter-spacing: 5px;
   font-size: 2rem;
+  
   
 }
 .form-label{

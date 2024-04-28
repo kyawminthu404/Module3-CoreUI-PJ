@@ -120,11 +120,11 @@ const EmployeeListIndex = () => {
       localStorage.setItem("Update",id);
   }
 
-  const delClick = async (deleteId) => {
+  const delClick = async (id) => {
     setConfirmationModel(true);
     setContent("Are you sure wanna Delete?"); 
     setConfirmType("delete");
-    setDeleteId(deleteId);
+    setDeleteId(id);
     /* let obj = {
       method: "get",
       url: `employee/delete/${deleteId}` ,

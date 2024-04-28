@@ -3,7 +3,7 @@ import React from 'react'
 import SuccessError from '../common/SuccessError';
 import CIcon from '@coreui/icons-react';
 
-const LoginForm = (props) => {
+const LoginForm = (props) => { 
     let {loginClick,passwordChange,password,userCodeChange,userCode,success,error,keydownHandle,zoomSize} = props;
   return (
   <>
@@ -76,7 +76,7 @@ const LoginForm = (props) => {
     )}  
 
 {zoomSize > 149 && ( <div
-      className="min-vh-100  flex-row align-items-center login-bg"
+      className="min-vh-100  flex-row align-items-center login-bgg"
     >
     <CRow>
   <CCol lg="3"></CCol>

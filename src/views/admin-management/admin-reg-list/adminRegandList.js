@@ -186,6 +186,10 @@ const AdminRegAndListIndex = () => {
     setLoading(false);
   }
 
+
+
+
+  
   const delClick = async (id) => {
     setConfirmationModel(true);
     setContent("Are you sure wanna Delete?"); 
@@ -226,6 +230,7 @@ const AdminRegAndListIndex = () => {
     setLoading(false);
     
   }
+  
 
 
 const updateClick = async () => {
